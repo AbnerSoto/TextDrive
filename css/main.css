@@ -1,0 +1,99 @@
+
+body {
+    background:#FFF;
+    color: #000;
+    padding: 20px;
+}
+
+#header .btn-primary {
+    background-color: #7e0d34;
+    border: none;
+}
+#footer .btn-primary {
+    background-color: #7d0d34;
+    border: none;
+}
+
+/********************
+HEADER
+*********************/
+#header h1 {
+    font-size: 48px;
+    color: #800d35;
+}
+#header {
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+#title {
+    text-align: center;
+}
+#header button {
+    margin-top: 5%;
+}
+#header img {
+    margin: 5%;
+}
+#header .cl-md-4 {
+    margin-left: 0;
+}
+
+/********************
+SLIDER
+*********************/
+#wrapper {
+    background: url("../img/background.jpg");
+    margin: 0 auto;
+    max-width: 811px;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-inner {margin-bottom: 20%}
+.carousel-indicators {
+    bottom: -152px;
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+}
+#textDriveCarousel .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    height: 62px;
+    text-indent: 0;
+    width: 24%;
+}
+.carousel-indicators .active {
+    width: 25%;  
+}
+
+.carousel-indicators .active {
+    background-color:transparent;
+}
+.carousel-control .glyphicon-chevron-right { /*** ARROW CONTROLS ****/
+right: 10%;
+}
+.carousel-control .glyphicon-chevron-left { /*** ARROW CONTROLS ****/
+left: 10%;
+}
+/********************
+FOOTER
+*********************/
+
+#footer .btn-primary{
+    display: block;
+    margin: 10px auto;
+}
+#footer h2, #footer p {
+    text-align: center; 
+}
+#footerLogos img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+
+
